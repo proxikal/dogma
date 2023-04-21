@@ -6,6 +6,7 @@ export class UI {
         this.livesImage = lives;
     }
 
+    
     draw(context) {
         context.save();
         context.shadowOffsetX = 2;
